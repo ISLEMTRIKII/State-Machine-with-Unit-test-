@@ -1,0 +1,11 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/tests/test_state_machine.exe
+bazel-out/x64_windows-fastbuild/bin/tests/_objs/test_state_machine/test_state_machine.obj
+bazel-out/x64_windows-fastbuild/bin/src/state_machine_lib.lib
+bazel-out/x64_windows-fastbuild/bin/external/googletest+/gtest_main.lib
+bazel-out/x64_windows-fastbuild/bin/external/googletest+/gtest.lib
+/SUBSYSTEM:CONSOLE
+/MACHINE:X64
+/DEFAULTLIB:msvcrt.lib
+/DEBUG:FASTLINK
+/INCREMENTAL:NO

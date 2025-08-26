@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="py\test_helper.exe" tests="1" failures="0" errors="0">
+<testcase name="py\test_helper.exe" status="run" duration="9" time="9"></testcase>
+<system-out><![CDATA[Executing tests from //py:test_helper
+-----------------------------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+]]></system-out>
+</testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/src/state_machine.lib
+/MACHINE:X64
+bazel-out/x64_windows-fastbuild/bin/src/_objs/state_machine/state_machine.obj
+/ignore:4221

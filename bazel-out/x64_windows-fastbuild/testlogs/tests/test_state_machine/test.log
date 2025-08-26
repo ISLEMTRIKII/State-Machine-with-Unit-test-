@@ -1,0 +1,19 @@
+Executing tests from //tests:test_state_machine
+-----------------------------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from StateMachineTest
+[ RUN      ] StateMachineTest.IdleToActiveTransition
+State: Idle
+[       OK ] StateMachineTest.IdleToActiveTransition (0 ms)
+[ RUN      ] StateMachineTest.ActiveToErrorTransition
+State: Active
+[       OK ] StateMachineTest.ActiveToErrorTransition (0 ms)
+[ RUN      ] StateMachineTest.ErrorToIdleTransition
+State: Error!
+[       OK ] StateMachineTest.ErrorToIdleTransition (0 ms)
+[----------] 3 tests from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
